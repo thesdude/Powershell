@@ -1,0 +1,1 @@
+ls *.<File_Extension> | Rename-Item -NewName {$_.name -replace "<Old_File_Part>","<New_File_Part>"}
